@@ -1,0 +1,30 @@
+body {
+    font-family: 'Raleway',Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+
+}
+
+
+.heading-primary {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 7.5rem;
+    line-height: 9.8rem;
+    animation: moveInUp 2s;
+
+}
+
+
+.heading-tertiary {
+    font-family: "open sans",Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 22px;
+    color: #ffffff;
+    line-height: 37px;
+    animation: moveInUp 3s;
+
+}

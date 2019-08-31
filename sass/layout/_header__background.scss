@@ -1,4 +1,22 @@
 .header__background {
     background: palegreen;
     height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1557935007-42543bc7b028?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    &--container {
+        background: transparent;
+        width: 70%;
+        padding: 1rem 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-45%);
+    }
+
+    .header__links {
+        animation: moveInUpBtns 4s;
+    }
 }

@@ -12,8 +12,59 @@ body {
   box-sizing: border-box;
   font-family: 'Raleway',Arial, Helvetica, sans-serif; }
 
+body {
+  font-family: 'Raleway',Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7; }
+
+.heading-primary {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 7.5rem;
+  line-height: 9.8rem;
+  animation: moveInUp 2s; }
+
+.heading-tertiary {
+  font-family: "open sans",Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 22px;
+  color: #ffffff;
+  line-height: 37px;
+  animation: moveInUp 3s; }
+
+.u-center-text {
+  text-align: center; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 3.5rem; }
+
+.u-margin-bottom-large {
+  margin-bottom: 8rem; }
+
+@keyframes moveInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+@keyframes moveInUpBtns {
+  0% {
+    opacity: 0;
+    transform: translateY(60px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
 .section__header {
-  height: 86.5vh; }
+  height: 80.5vh; }
 
 .navigation {
   display: flex;
@@ -40,4 +91,39 @@ body {
 
 .header__background {
   background: palegreen;
-  height: 100%; }
+  height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1557935007-42543bc7b028?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .header__background--container {
+    background: transparent;
+    width: 70%;
+    padding: 1rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%); }
+  .header__background .header__links {
+    animation: moveInUpBtns 4s; }
+
+.btn {
+  font-family: 'Opens Sans',Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding: 1rem 1.75rem;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  line-height: 21px;
+  text-decoration: none;
+  color: #ffffff; }
+  .btn-primary:link, .btn-primary:visited {
+    background: #03c4eb;
+    border: 1px solid #03c4eb; }
+  .btn-secondary:link, .btn-secondary:visited {
+    background: transparent;
+    border: 1px solid #ffffff; }
+  .btn-secondary:hover, .btn-secondary:active {
+    transition: all 0.5s;
+    background: #ffffff;
+    color: #000000; }
