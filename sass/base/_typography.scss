@@ -6,7 +6,6 @@ body {
 
 }
 
-
 .heading-primary {
     text-transform: uppercase;
     color: #ffffff;
@@ -17,14 +16,50 @@ body {
 
 }
 
+.heading-secondary {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    text-transform: uppercase;
+    color: $color-dark-grey;
+}
+
 
 .heading-tertiary {
     font-family: "open sans",Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-style: italic;
     font-size: 22px;
-    color: #ffffff;
+    color: $color-white;
     line-height: 37px;
     animation: moveInUp 3s;
+}
 
+.heading-quartiary {
+    display: inline-block;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: $color-medium-grey;
+}
+
+
+.paragraph {
+    font-family: "open sans",Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: $color-light-grey;
+}
+
+
+.header-item-title {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+    color: $color-dark-grey;
 }
