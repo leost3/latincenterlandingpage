@@ -1,0 +1,43 @@
+html {
+  font-size: 62.5%; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  box-sizing: border-box;
+  font-family: 'Raleway',Arial, Helvetica, sans-serif; }
+
+.section__header {
+  height: 86.5vh; }
+
+.navigation {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 10rem;
+  background: white; }
+  .navigation__list {
+    list-style: none;
+    display: flex; }
+  .navigation__item {
+    margin-left: 3rem;
+    text-transform: uppercase; }
+  .navigation__link:visited, .navigation__link:link {
+    display: inline-block;
+    text-decoration: none;
+    color: #333333;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 75px; }
+  .navigation__link:hover, .navigation__link:active {
+    color: #03c4eb; }
+
+.header__background {
+  background: palegreen;
+  height: 100%; }
