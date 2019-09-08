@@ -1,0 +1,40 @@
+
+.services__container {
+    text-align: center;
+}
+
+.services__cards {
+    // display: flex;
+}
+
+
+.services__cards--container {
+    padding-bottom: 10px;   
+    display: block;
+    width: 47%;
+    float:  left;
+    margin-right: 25px;
+}
+.services__cards--subcontainer {
+    background: $color-white;
+    padding: 30px;
+    display: flex;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+
+
+    &:hover {
+        box-shadow: 0 6px 9px rgba(0, 0, 0, 0.09);
+    }
+}
+
+
+.services__cards--icon {
+  
+    background: $color-primary;
+    fill: black;
+    display: block;
+    margin: auto;
+    position: relative;
+    transition: all 0.3s;
+    margin-right: 30px;
+}

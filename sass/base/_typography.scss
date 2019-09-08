@@ -10,8 +10,8 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 800;
-    font-size: 7.5rem;
-    line-height: 9.8rem;
+    font-size: 75px;
+    line-height: 98px;
     animation: moveInUp 2s;
 
 }
@@ -19,8 +19,8 @@ body {
 .heading-secondary {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-weight: 800;
-    font-size: 4rem;
-    line-height: 4.8rem;
+    font-size: 40px;
+    line-height: 48px;
     text-transform: uppercase;
     color: $color-dark-grey;
 }
@@ -35,23 +35,38 @@ body {
     line-height: 37px;
     animation: moveInUp 3s;
 }
-
 .heading-quartiary {
+    font-family: "open sans",Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: $color-white;
+    line-height: 34px;
+}
+
+.heading-subtitle {
     display: inline-block;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 1.4rem;
-    line-height: 1.5rem;
+    font-size: 14px;
+    line-height: 15px;
     text-transform: uppercase;
     color: $color-medium-grey;
 }
 
+.heading-subtitle-aboutus {
+    display: inline-block;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: $color-dark-grey;
+}
 
 .paragraph {
     font-family: "open sans",Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 2.4rem;
+    font-size: 14px;
+    line-height: 24px;
     color: $color-light-grey;
 }
 
@@ -59,7 +74,26 @@ body {
 .header-item-title {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-weight: 600;
-    font-size: 1.7rem;
-    line-height: 1.9rem;
+    font-size: 17px;
+    line-height: 19px;
     color: $color-dark-grey;
 }
+
+
+.heading-facts {
+    font-family: serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    color: $color-primary;
+}
+
+.paragraph-facts {
+    font-family: "open sans",Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+    color: $color-dark-grey;
+    text-transform: uppercase;
+}
+

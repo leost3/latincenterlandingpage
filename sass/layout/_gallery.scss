@@ -1,0 +1,15 @@
+.grid__images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__images_container {
+    width: 19.85%;
+    // height: 20%;
+    margin: 1px;
+
+    & img {
+        width: 100%;
+        display: block;
+    }
+}

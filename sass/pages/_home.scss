@@ -5,5 +5,119 @@
 
 .section-features {
     background: $color-background-1;
-    padding: 10rem 20rem;
+    padding: $defaultpadding;
+}
+
+
+.section-aboutus {
+    background:$color-background-2;
+    padding: $defaultpadding;
+}
+
+
+
+.section-services {
+    background: $color-background-1;
+    padding: 10rem 20rem 5rem 20rem;
+    height: 70rem;
+
+}
+
+.section-parallax {
+    padding: $defaultpadding;
+    height: 40rem;
+    background: $color-background-2;
+}
+
+.section-gallery {
+    background: $color-background-1;
+    padding: 10rem 0;
+    height: 80rem;
+    & h4 {
+        color: $color-light-grey;
+    }
+}
+
+
+.section-funfacts {
+    background: $color-background-2;
+    padding: $defaultpadding;
+    text-align: center;
+
+    & h4 {
+        color: $color-light-grey;
+    }
+
+    .funfacts__cards {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
+
+.section-team {
+    background: $color-background-1;
+    padding: $defaultpadding;
+    text-align: center;
+
+    & h3 {
+        display: inline-block;
+        border-bottom: 1px solid $color-light-grey;
+        text-transform: uppercase;
+    }
+
+    &__cards {
+        display: flex;
+    }
+
+    &__card {
+        margin-right: 1px;
+        width: 24%;
+
+        &--img {
+            width: 100%;
+
+            & img {
+                width: 100%;
+            }
+        }
+
+    }
+
+
+ 
+
+}
+
+.section-subtitle {
+    background: $color-background-2;
+    padding: $defaultpadding;
+    text-align: center;
+
+    .subtitle__news {
+        display: flex;
+        border-bottom: 1px solid $color-light-grey;
+        border-top: 1px solid $color-light-grey;
+        padding: 30px;
+        justify-content: flex-start;
+
+        &--img {
+            height: 150px;
+            width: 300px;
+            & img {
+                width: 100%;            
+           
+            }
+        }
+        &--content {
+            text-align: start;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: flex-start;
+        }
+    }
+
+
+
 }
